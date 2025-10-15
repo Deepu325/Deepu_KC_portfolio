@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepu KC - Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Deepu KC</div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" onclick="closeMenu()">Home</a></li>
+            <li><a href="#about" onclick="closeMenu()">About</a></li>
+            <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+            <li><a href="#achievements" onclick="closeMenu()">Achievements</a></li>
+            <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm Deepu KC</h1>
+            <h2>Full Stack Developer | Tech Explorer | Leader</h2>
+            <p>"Turning ideas into digital reality 💡 through creativity, logic, and consistent learning."</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-fill">View Projects</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+                            <img src="images/PROFILE_PIC.jpg" alt="Profile Picture" class="profile-img">
+            <div class="about-text">
+                <p>I'm a passionate <strong>Full Stack Developer</strong> and <strong>BCA student</strong> at Soundarya Institute of Management and Science. I love building creative and functional digital solutions that solve real-world problems using modern web technologies.</p>
+                <p>I believe in <strong>consistency, focus, and learning by doing</strong> ,qualities that help me grow both as a developer and as a leader. Currently, I serve as the <strong>General Secretary of CODE-DEN</strong>, where I manage six student clubs, coordinate events, and mentor peers in technology.</p>
+                <p>I'm always open to internships, freelance collaborations, and tech communities that help me learn, share, and contribute to innovation.</p>
+                                                <a href="assets/Deepu KC_Resume.pdf" download="Deepu_KC_Resume.pdf" class="btn-download">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">Skills & Tools</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-node"></i>
+                <h3>Node.js</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>MySQL</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-leaf"></i>
+                <h3>MongoDB</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-git-alt"></i>
+                <h3>Git</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img">🐾</div>
+                <div class="project-content">
+                    <h3>The Quality Pets Website</h3>
+                    <p>A full-featured pet-selling and services website with responsive UI, product showcase, contact form, and WhatsApp order feature.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">💰</div>
+                <div class="project-content">
+                    <h3>Personal Expense Tracker</h3>
+                    <p>A Python-based application to record and manage daily expenses, visualize spending patterns, and generate reports.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">SQLite</span>
+                        <span class="tech-tag">Data Visualization</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">🛕</div>
+                <div class="project-content">
+                    <h3>Temple Management System</h3>
+                    <p>A web-based system to manage temple records including pooja lists, donations, events, with admin control and database connectivity.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <h2 class="section-title">Experience & Achievements</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>General Secretary – CODE-DEN</h3>
+                    <p><strong>July 2025 – Present | Bengaluru, India</strong></p>
+                    <p>Leading and managing 6 student clubs under the Department of Computer Science(BCA). Coordinating tech fests, workshops, and events while encouraging collaboration and innovation.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Intern – Codec Technologies India</h3>
+                    <p><strong>April 2025 – Present</strong></p>
+                    <p>Working on practical web development and software projects. Learning to apply full-stack concepts in real-world environments.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Runner-Up – Ideathon 2.0</h3>
+                    <p>Secured second place and received a cash prize for innovative project presentation demonstrating creativity and technical excellence.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Organized IT Fest "Omorfia"</h3>
+                    <p>Successfully managed 10 major technical and sports events, including IT Quiz, Coding & Debugging, Reel Making, Cricket, and Carrom, by coordinating with multiple teams and participants to ensure smooth and engaging event execution..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-fill">Send Message 🚀</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/deepu-kc-2630702a3" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/yourusername" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:deepukc2526@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>© 2025 Deepu KC | Designed & Developed by Deepu</p>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">Message Sent Successfully 🚀</div>
+
+    <!-- Scroll to Top -->
+    <div class="scroll-top" id="scrollTop" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/download.js"></script>
+</body>
+</html>
