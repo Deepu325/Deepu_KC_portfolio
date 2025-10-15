@@ -1,11 +1,10 @@
-
 # 🌐 Deepu KC – Personal Portfolio Website
 
 A **personal portfolio website** built to represent my journey as a **Full Stack Developer (Learner)**.  
 This website showcases my **projects, skills, achievements, and professional experience**, developed using modern web technologies with a clean and futuristic **Black & Neon Green theme**.
 
-🔗 **Live Portfolio:** [https://your-github-username.github.io/portfolio-website/](https://your-github-username.github.io/portfolio-website/)  
-💻 **GitHub Repository:** [https://github.com/your-github-username/portfolio-website](https://github.com/your-github-username/portfolio-website)
+🔗 **Live Portfolio:** [https://deepu325.github.io/portfolio-website/](https://deepu325.github.io/portfolio-website/)  
+💻 **GitHub Repository:** [https://github.com/Deepu325/portfolio-website](https://github.com/Deepu325/portfolio-website)
 
 ---
 
@@ -50,8 +49,6 @@ This is the **initial version** of my portfolio website — a work-in-progress p
 
 ## 🗂️ Folder Structure
 
-```
-
 portfolio-website/
 │
 ├── server.js                # (backend integration – optional for local setup)
@@ -74,32 +71,33 @@ portfolio-website/
 │
 └── README.md
 
+````
 ---
 
 ## 📬 Contact
 
-**Name:** Deepu K C
-**Role:** Full Stack Developer (Learner)
-**Location:** Bengaluru, Karnataka, India
-**Email:** [deepukc2526@gmail.com](mailto:deepukc2526@gmail.com)
-**LinkedIn:** [linkedin.com/in/deepu-kc-2630702a3](https://www.linkedin.com/in/deepu-kc-2630702a3)
+**Name:** Deepu K C  
+**Role:** Full Stack Developer (Learner)  
+**Location:** Bengaluru, Karnataka, India  
+**Email:** [deepukc2526@gmail.com](mailto:deepukc2526@gmail.com)  
+**LinkedIn:** [linkedin.com/in/deepu-kc-2630702a3](https://www.linkedin.com/in/deepu-kc-2630702a3)  
 **GitHub:** [github.com/Deepu325](https://github.com/Deepu325)
 
 ---
 
 ## 🧾 Future Plans
 
-* 🧠 Backend integration (Node.js + Express.js + MongoDB)
-* 🗄️ Admin dashboard for managing contact submissions
-* 🎨 More UI animations and theme customization
-* 📈 Analytics & performance improvements
-* 🌍 Hosting full-stack version on Render / Vercel with MongoDB Atlas
+- 🧠 Backend integration (Node.js + Express.js + MongoDB)
+- 🗄️ Admin dashboard for managing contact submissions
+- 🎨 More UI animations and theme customization
+- 📈 Analytics & performance improvements
+- 🌍 Hosting full-stack version on Render / Vercel with MongoDB Atlas
 
 ---
 
 ## 🏁 Acknowledgment
 
-This project marks the beginning of my **full-stack development journey** —
+This project marks the beginning of my **full-stack development journey** —  
 a hands-on approach to learning by building real-world applications and improving with every update.
 
 > “Turning ideas into digital reality 💡 through creativity, logic, and consistent learning.”
@@ -114,3 +112,5 @@ This project is open-source and available under the **MIT License**.
 
 © 2025 **Deepu KC** | Designed & Developed by Deepu KC
 
+If you share your **GitHub username** and **deployed portfolio link**, I’ll personalize it perfectly for you.
+```
