@@ -11,25 +11,6 @@ A full-stack personal portfolio built with:
 - Contact form connected to MongoDB
 - Project and achievements showcase
 
-## 🧩 Setup
-1. Clone the repo
-2. Install dependencies:
-```bash
-npm install
-```
-3. Add your `.env` file with MongoDB URI
-4. Start the server:
-```bash
-npm run dev
-```
-5. Open [http://localhost:5000](http://localhost:5000)
-
-## Environment Variables
-Create a `.env` file in the root directory with:
-```
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-```
 
 ## Directory Structure
 ```
@@ -52,17 +33,4 @@ portfolio-website/
 │   │   └── profile.jpg # Your profile picture
 │   └── assets/
 │       └── resume.pdf  # Your resume
-```
-
-## Contact Form
-The contact form data is stored in MongoDB. Each message includes:
-- Name
-- Email
-- Message
-- Timestamp
-
-## Development
-Run the development server with hot reload:
-```bash
-npm run dev
 ```
