@@ -45,33 +45,7 @@ This is the **initial version** of my portfolio website — a work-in-progress p
 ✅ Downloadable resume and live social media links  
 ✅ Contact form (frontend ready; backend integration in progress)  
 
----
 
-## 🗂️ Folder Structure
-
-portfolio-website/
-│
-├── server.js                # (backend integration – optional for local setup)
-├── package.json
-├── .env                     # MongoDB config (if backend used)
-│
-├── models/
-│   └── Contact.js           # Mongoose schema (optional)
-│
-├── portfolio/
-│   ├── index.html
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── script.js
-│   ├── images/
-│   │   └── profile.jpg
-│   └── assets/
-│       └── resume.pdf
-│
-└── README.md
-
-````
 ---
 
 ## 📬 Contact
