@@ -86,5 +86,3 @@ This project is open-source and available under the **MIT License**.
 
 © 2025 **Deepu KC** | Designed & Developed by Deepu KC
 
-If you share your **GitHub username** and **deployed portfolio link**, I’ll personalize it perfectly for you.
-```
