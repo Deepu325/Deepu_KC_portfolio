@@ -74,41 +74,6 @@ portfolio-website/
 │
 └── README.md
 
-````
-
----
-
-## ⚙️ Deployment (GitHub Pages)
-
-### **1. Push Your Code to GitHub**
-```bash
-git init
-git add .
-git commit -m "Initial portfolio commit"
-git branch -M main
-git remote add origin https://github.com/your-github-username/portfolio-website.git
-git push -u origin main
-````
-
-### **2. Deploy via GitHub Pages**
-
-1. Go to your repository on GitHub
-2. Click on **Settings → Pages**
-3. Under **Source**, select:
-
-   ```
-   Branch: main
-   Folder: / (root)
-   ```
-4. Click **Save**
-
-Your portfolio will be live at:
-
-```
-https://your-github-username.github.io/portfolio-website/
-```
-
----
 
 ## 📬 Contact
 
