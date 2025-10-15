@@ -3,7 +3,7 @@
 A **personal portfolio website** built to represent my journey as a **Full Stack Developer (Learner)**.  
 This website showcases my **projects, skills, achievements, and professional experience**, developed using modern web technologies with a clean and futuristic **Black & Neon Green theme**.
 
-🔗 **Live Portfolio:** [https://deepu325.github.io/portfolio-website/](https://deepu325.github.io/portfolio-website/)  
+🔗 **Live Portfolio:** ([https://deepu325.github.io/portfolio-website/](https://deepu325.github.io/Deepu_KC_portfolio/))  
 💻 **GitHub Repository:** [https://github.com/Deepu325/portfolio-website](https://github.com/Deepu325/portfolio-website)
 
 ---
